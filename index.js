@@ -4,7 +4,7 @@
 // This program is a simple quiz game that asks the user
 // questions, tracks their score, and shows results at the end.
 //
-// PART 1 - DEBUG IT (there are 6 bugs!)
+// PART 1 - DEBUG IT (there are 5 bugs!)
 // Run the program and fix the errors one at a time.
 // Some will crash immediately, others are logic errors
 // that produce wrong results.
@@ -77,7 +77,7 @@ async function playQuiz() {
 
   let score = 0;
 
-  for (let i = 0; i <= questions.length; i++) {
+  for (let i = 0; i < questions.length; i++) {
     const q = questions[i];
 
     console.log(`Question ${i + 1} of ${questions.length}`);
